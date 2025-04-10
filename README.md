@@ -36,7 +36,6 @@
 ### 2. 安装到服务器
 
 将插件放入 plugins 文件夹
-mv FlyPlugin-1.1.0.jar /path/to/plugins/
 
 ### 3. 安装到服务器
 
@@ -48,7 +47,9 @@ XConomy 或其它经济插件
 启动/重启服务器
 
 玩家输入指令：
+
 /flystart  # 开启飞行（立即扣除首分钟费用）
+
 /flystop   # 关闭飞行
 
 ## 🔧 配置文件 (config.yml)
