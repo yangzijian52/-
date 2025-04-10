@@ -55,22 +55,29 @@ XConomy 或其它经济插件
 # 经济设置
 settings:
   cost-per-minute: 0.1    # 每分钟费用
+  
   charge-interval: 60     # 扣费间隔（秒）
+  
   console-logging: true    # 启用日志
   
 # 首次扣费规则
 first-charge: 
+
   enable: true            # 执行命令时立即扣费
+  
   refund-on-stop: false   # 关闭飞行时是否退还剩余时间
 
 ## 📜 命令列表
 命令	权限节点	描述
 /flystart	flyplugin.use	开启飞行并开始计费
+
 /flystop	flyplugin.use	停止飞行和计费
+
 /flyreload	flyplugin.admin	重载配置文件
 
 ## 🛠️ 开发者指南
 ### 项目结构
+
 src/
 ├── main/
 │   ├── java/com/yourname/flyplugin/
