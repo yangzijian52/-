@@ -60,13 +60,6 @@ settings:
   charge-interval: 60     # 扣费间隔（秒）
   
   console-logging: true    # 启用日志
-  
-# 首次扣费规则
-first-charge: 
-
-  enable: true            # 执行命令时立即扣费
-  
-  refund-on-stop: false   # 关闭飞行时是否退还剩余时间
 
 ## 📜 命令列表
 
