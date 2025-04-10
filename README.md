@@ -35,14 +35,14 @@
 
 ### 2. 安装到服务器
 ```bash
-# 将插件放入 plugins 文件夹
+将插件放入 plugins 文件夹
 mv FlyPlugin-1.1.0.jar /path/to/plugins/
 
-### 3. 安装到服务器
-#Vault (必选)
+ 3. 安装到服务器
+Vault (必选)
 XConomy 或其它经济插件
 
-##⚡ 快速开始
+⚡ 快速开始
 启动/重启服务器
 
 玩家输入指令：
