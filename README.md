@@ -68,24 +68,33 @@ first-charge:
   refund-on-stop: false   # 关闭飞行时是否退还剩余时间
 
 ## 📜 命令列表
-命令	权限节点	描述
-/flystart	flyplugin.use	开启飞行并开始计费
 
-/flystop	flyplugin.use	停止飞行和计费
+| 命令        | 权限节点             |描述  |
+|------------|----------------------|-----------------------|
+| /flystart   | flyplugin.use       |  开启飞行并开始计费  |
+| /flystop   | flyplugin.use        | 停止飞行和计费  |
+| /flyreload     |flyplugin.admin   |重载配置文件|
 
-/flyreload	flyplugin.admin	重载配置文件
 
 ## 🛠️ 开发者指南
 ### 项目结构
 
 src/
+
 ├── main/
+
 │   ├── java/com/yourname/flyplugin/
+
 │   │   ├── Main.java
+
 │   │   ├── FlyCommand.java
+
 │   │   └── PlayerListener.java
+
 │   └── resources/
+
 │       ├── plugin.yml
+
 │       └── config.yml
 
 ## 💡 常见问题
