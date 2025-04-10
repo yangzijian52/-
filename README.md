@@ -1,6 +1,6 @@
 # FlyPlugin 🚀
 
-> 适用于 Minecraft 服务器的经济飞行插件 | [English Version](#) (可选)
+> 适用于 Minecraft 服务器的经济飞行插件 
 
 ![Version](https://img.shields.io/badge/Version-1.1.0-blue)
 ![Paper](https://img.shields.io/badge/Paper-1.21.4-red)
