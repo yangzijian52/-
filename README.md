@@ -41,6 +41,7 @@ mv FlyPlugin-1.1.0.jar /path/to/plugins/
 ### 3. 安装到服务器
 
 Vault (必选)
+
 XConomy 或其它经济插件
 
 ## ⚡ 快速开始
